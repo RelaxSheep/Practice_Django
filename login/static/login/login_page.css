@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 0.8rem;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.error-message p {
+    margin: 0;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 0.9rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
