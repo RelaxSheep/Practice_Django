@@ -1,0 +1,16 @@
+{% extends 'menu.html' %}
+
+{% block title %}
+    <title>Question list</title>
+{% endblock title %}
+
+
+{% block content %}
+    
+    {% for question in question_list %}
+        <a href="{% url 'form:question_detail_view_url' question.id %}">{{question.content}}</a>
+        <br>
+    {% endfor %}
+        
+{% endblock content %}
+    
