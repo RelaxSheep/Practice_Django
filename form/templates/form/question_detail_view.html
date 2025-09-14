@@ -1,7 +1,9 @@
 {% extends 'menu.html' %}
+{% load static %}
 
 {% block title %}
     <title>Answer question {{selected_question.id}}</title>
+    <link rel="stylesheet" href="{% static 'form/style.css' %}">
 {% endblock title %}
     
     {% block content %}
